@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#empty {
+    width: 100%;
+    height: 32px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+
+#logo-div {
+    align-items: center;
+    margin-left: 24px;
+}
+
+#logo-div img {
+    height: 32px;
+    margin-top: 5px;
+}
+
+#colmar-div #academy-div {
+    height: 32px;
+    width: auto;
+}
+
+#colmar-div {
+    font-size: 9px;
+    color: black;
+    opacity: 0.75;
+}
+
+#academy-div {
+    font-size: 9px;
+    color: black;
+    opacity: 0.25;
+}
+
+#header-div {
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+#header-div nav a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    margin: 0 4px 0 4px;
+}
+
+#banner-div {
+    background-color: rgb(235, 233, 233);
+    width: 100%;
+    height: 880px;
+    display: flex;
+}
+
+#banner-div #first {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    margin: 32px 24px 32px 24px;
+}
+
+#banner-div #second {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin: 32px 24px 32px 24px;
+}
+
+#banner-div #second h1 {
+    color: black;
+    opacity: 0.7;
+    font-size: 70px;
+    text-align: left;
+}
+
+#banner-div #second p {
+    color: black;
+    opacity: 0.7;
+    font-size: 30px;
+    text-align: left;
+}
+
+#banner-div #second button {
+    height: 50px;
+    padding: 8px;
+    width: 100%;
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-size: 18px;
+}
+
+#information-div {
+    width: 100%;
+    height: 750px;
+    margin-left: 24px;
+    margin-top: 32px;
+    display: flex;
+}
+
+#information-div #information-div-first {
+    width: 55%;
+    height: 100%;
+    padding-right: 24px;
+}
+
+#information-div #information-div-first #information-div-first-img {
+    width: 100%;
+    height: 67%;
+    background-color: black;
+}
+
+#information-div #information-div-first h1 {
+    margin: 32px auto 24px 20px;
+    color: black;
+    opacity: 0.7;
+}
+
+#information-div #information-div-first h4 {
+    color: black;
+    opacity: 0.45;
+    margin-right: 50px;
+}
+
+#information-div #information-div-first p {
+    color: black;
+    opacity: 0.45;
+    margin: 32px auto 32px 0;
+}
+
+
+#information-div #information-div-first #information-div-first-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#information-div #information-div-second {
+    width: 41.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-details {
+    width: 100%;
+    height: 30%;
+    border-left: 2px solid rgb(211, 210, 210);
+    border-right: 2px solid rgb(211, 210, 210);
+    border-top: 1px solid rgb(211, 210, 210);
+    border-bottom: 1px solid rgb(211, 210, 210);
+    display: flex;
+}
+
+.info-img {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-img img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.special {
+    background-color: rgb(211, 210, 210);
+}
+
+.info-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.info-txt a {
+    text-decoration: none;
+    color: rgb(0, 172, 239);
+}
+
+.info-txt a:hover {
+    color: rgb(123, 0, 239);
+}
+
+.info-txt p {
+    color: black;
+    opacity: 0.45;
+}
+
+.info-txt h2 {
+    color: black;
+    opacity: 0.7;
+}
+
+
+#start-learning-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(235, 233, 233);
+}
+
+#start-learning-div h1 {
+    color: black;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+
+#start-learning-boxes1, #start-learning-boxes2 {
+    display: flex;
+    justify-content: center;
+}
+
+.start-learning-box {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    margin: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box-img {
+    width: 100%;
+    height: 50%;
+}
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.h3-boxes {
+    color: black;
+    opacity: 0.7;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 30px;
+}
+
+.h5-boxes {
+    color: black;
+    opacity: 0.45;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 30px;
+}
+
+.p-boxes {
+    color: black;
+    opacity: 0.45;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 30px;
+}
+
+#end-h1 {
+    color: black;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+
+#end {
+    width: 100%;
+    height: 750px;
+    margin-left: 24px;
+    margin-top: 32px;
+    display: flex;
+}
+
+#end #end-first {
+    width: 55%;
+    height: 100%;
+    padding-right: 24px;
+}
+
+#end #end-first #end-video {
+    width: 100%;
+    height: 67%;
+    background-color: black;
+}
+
+#end #end-first #end-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#end #end-first h1 {
+    margin: 32px auto 24px 20px;
+    color: black;
+    opacity: 0.7;
+}
+
+#end #end-first h4 {
+    color: black;
+    opacity: 0.45;
+    margin-right: 50px;
+}
+
+#end #end-second {
+    width: 41.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    color: black;
+    opacity: 0.5;
+    margin-bottom: 40px;
+    border-top: 1px solid rgb(211, 210, 210);
+    margin-top: 16px;
+}
+
+
+#terms-privacy a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+
+#terms-privacy a:hover {
+    color:black;
+    opacity: 0.8;
+}
